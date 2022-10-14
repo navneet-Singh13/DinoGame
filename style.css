@@ -1,0 +1,74 @@
+#main { 
+    height : 280px ; 
+    width : 100% ; 
+    margin-top: 100px ;
+    border-radius: 20px ;
+    
+   
+    
+}
+
+#dino{ 
+    position: absolute;
+    width: 50px ;
+    top: 330px ;
+    transition: 1000ms ; 
+    left: 30px ;
+}
+
+#block { 
+    position:absolute ; 
+    right:490px ;  
+    top:340px ;
+    height: 40px ;
+    width: 40px ;
+    display: inline-block;
+    /* animation : move 1s infinite;  */
+}
+@keyframes move{ 
+    from{ 
+        left:100% ;
+
+    }
+    to{ 
+        left:0px;
+    }
+}
+@keyframes jump { 
+    0%{ 
+        transform: translateY(40px);
+    }
+    100%{ 
+        transform: translateY(-40px);
+    }
+}
+@keyframes clr { 
+   from{ 
+        background-color : red ; 
+    }
+    to{ 
+        background-color : blue ; 
+    }
+}
+#road { 
+    position:absolute ; 
+    top:330px ; 
+}
+#ash{ 
+    left: 550px ; 
+    display: block;
+    position: absolute;
+    height: 150px ;
+    width: 150px ;
+    
+
+}
+#start{ 
+    text-align: center ;
+    margin-top:100px ; 
+}
+#btn { 
+    padding: 10px ;
+    width: 200px ;
+    font-family: 'Silkscreen', cursive;
+}
